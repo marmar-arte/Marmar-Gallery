@@ -49,11 +49,15 @@ export const categories = [
 const ASSET = "https://customer-assets.emergentagent.com/job_marmar-gallery/artifacts";
 
 export const gallery = [
-  { id: 1, cat: "landscape", title: "Сад у моря", img: `${ASSET}/r8fyrmi5_IMG_2963.jpeg` },
-  { id: 2, cat: "landscape", title: "Зима во дворе", img: `${ASSET}/rdvsakmq_IMG_0954.jpeg` },
-  { id: 3, cat: "mythical", title: "Мавка", img: `${ASSET}/0d9sceoi_IMG_0943.jpeg` },
-  { id: 4, cat: "mythical", title: "Тайна старого города", img: `${ASSET}/n8zm4v5j_IMG_0931.jpeg` },
-  { id: 5, cat: "portrait", title: "Девичник на Бродвее", img: `${ASSET}/wre4dgdo_IMG_0426.png` },
+  { id: 1, cat: "portrait", title: "Sex and the big city", img: `${ASSET}/wre4dgdo_IMG_0426.png` },
+  { id: 2, cat: "mythical", title: "Darkness", img: `${ASSET}/n8zm4v5j_IMG_0931.jpeg` },
+  { id: 3, cat: "mythical", title: "Rituals", img: `${ASSET}/0d9sceoi_IMG_0943.jpeg` },
+  { id: 4, cat: "landscape", title: "Souls of the panel blocks", img: `${ASSET}/rdvsakmq_IMG_0954.jpeg` },
+  { id: 5, cat: "landscape", title: "Gardens of Eden", img: `${ASSET}/jle2qhrx_IMG_3135.jpeg` },
+  { id: 6, cat: "mythical", title: "Angel or Evil", img: `${ASSET}/n99ot1pj_Untitled72_20260412145833.jpeg` },
+  { id: 7, cat: "portrait", title: "Love", img: `${ASSET}/sjvxpi20_IMG_0959.jpeg` },
+  { id: 8, cat: "portrait", title: "Feelings", img: `${ASSET}/tuivfrsc_Untitled74_20260412124446.jpeg` },
+  { id: 9, cat: "mythical", title: "Cosmos of subconscious", img: `${ASSET}/1fyhkkqb_Untitled73_20260412124425.jpeg` },
 ];
 
 export const reviews = [
