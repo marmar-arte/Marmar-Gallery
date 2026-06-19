@@ -1,11 +1,12 @@
 import { Reveal } from "./Reveal";
+import { Globe } from "lucide-react";
 import { stages } from "../data";
 
 export const Stages = () => (
   <section id="stages" className="py-24 lg:py-32 bg-surface/60">
     <div className="max-w-6xl mx-auto px-6 lg:px-12">
       <Reveal className="text-center max-w-2xl mx-auto">
-        <span className="font-accent text-clay text-3xl">как мы работаем</span>
+        <span className="font-accent text-clay text-3xl">как я работаю</span>
         <h2 className="font-heading text-4xl lg:text-5xl font-light text-ink mt-2">
           Этапы сотрудничества
         </h2>
@@ -13,6 +14,10 @@ export const Stages = () => (
           Из чего складывается стоимость картины: материалы, моё время и создание
           цифрового эскиза, который я показываю вам ещё до начала работы.
         </p>
+        <div className="inline-flex items-center gap-2 mt-6 bg-white/70 border border-border rounded-full px-5 py-2.5 text-ink text-sm" data-testid="worldwide-shipping-badge">
+          <Globe size={18} strokeWidth={1.5} className="text-clay" />
+          Доставка по всему миру
+        </div>
       </Reveal>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-14">
