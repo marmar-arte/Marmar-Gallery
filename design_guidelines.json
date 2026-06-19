@@ -1,0 +1,108 @@
+{
+  "theme": "Light",
+  "archetype": "3 (Pastel & Soft)",
+  "vibe": "Cute, tender, soft pastel, artisan, feminine, handcrafted. Warm and welcoming.",
+  "language": "ru",
+  "colors": {
+    "background": "#FDFBF7",
+    "surface": "#F6F0EA",
+    "surfaceAccent": "#F1E6E4",
+    "primary": "#D4A396",
+    "primaryForeground": "#FFFFFF",
+    "secondary": "#C5D1C5",
+    "textMain": "#2C2A29",
+    "textMuted": "#7A736E",
+    "border": "#E8DFD8"
+  },
+  "typography": {
+    "headingFont": "Cormorant Garamond",
+    "bodyFont": "Nunito",
+    "accentFont": "Caveat",
+    "hierarchy": {
+      "h1": "text-5xl sm:text-6xl lg:text-7xl font-light tracking-tight text-textMain",
+      "h2": "text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight text-textMain",
+      "h3": "text-2xl sm:text-3xl font-medium text-textMain",
+      "body": "text-base sm:text-lg font-light leading-relaxed text-textMuted",
+      "accent": "font-accent text-3xl sm:text-4xl text-primary transform -rotate-2"
+    }
+  },
+  "layout_and_spacing": {
+    "philosophy": "Generous, breathable, irregular. Use large padding (p-12 to p-24) to create a gallery-like feeling. Avoid harsh straight lines.",
+    "border_radius": "rounded-3xl or rounded-[40px] for soft, friendly shapes. Use fully rounded (pill) buttons.",
+    "container": "max-w-6xl mx-auto px-6 lg:px-12",
+    "grids": "Bento grids with asymmetrical spanning, masonry layouts for the gallery to highlight the handcrafted nature."
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primaryForeground hover:bg-primary/90 transition-all duration-300 rounded-full px-8 py-4 text-lg shadow-sm hover:shadow-md font-medium",
+      "secondary": "bg-white/60 backdrop-blur-sm text-textMain hover:bg-white/90 transition-all duration-300 rounded-full px-8 py-4 text-lg border border-border"
+    },
+    "cards": {
+      "style": "bg-white/60 backdrop-blur-md border border-white/40 shadow-[0_8px_32px_rgba(212,163,150,0.08)] rounded-[32px] p-8 md:p-10",
+      "hover": "hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(212,163,150,0.12)] transition-all duration-500"
+    },
+    "inputs": {
+      "style": "w-full bg-white/50 border border-border/50 rounded-2xl px-6 py-4 focus:ring-2 focus:ring-primary/30 focus:border-primary/50 text-textMain placeholder:text-textMuted/50 outline-none transition-all",
+      "label": "block text-sm font-medium text-textMain mb-2 ml-2"
+    }
+  },
+  "sections_instructions": {
+    "header": "Sticky nav with a crystal glassmorphism effect (bg-white/70 backdrop-blur-xl). Logo text 'marmar_arte' in Cormorant Garamond. Navigation links to Home, About, Services, Gallery, Reviews, Contacts.",
+    "hero": "Asymmetrical layout. Soft abstract pastel texture in the background. Large rounded image of the artist. Headline: 'Картины, которые согревают сердце' (Paintings that warm the heart). Include primary CTA 'Заказать картину' (Order a painting) and Instagram link button. Add a handwritten text accent 'С любовью, marmar_arte'.",
+    "about": "Two-column organic block. Left: Text about the artist, process, and love for acrylic painting. Right: Image of the artist painting. Use small SVG brush strokes or organic shapes floating around the container.",
+    "services_pricing": "Clear breakdown of collaboration stages: 1. Обсуждение и скетч (Discussion & sketch), 2. Материалы (Materials), 3. Работа художника (Artist's work). Pricing section showcasing sizes (e.g., 50x50 cm) with prices in PLN and EUR (e.g., 900 PLN / ~210 EUR). Distinguish painting categories: Пейзажи (Landscapes), Мифические сюжеты (Mythical), Портреты (Portraits), Флористика (Florals). Use soft glassmorphic cards for the pricing tiers.",
+    "gallery": "Masonry or asymmetrical grid layout. Include a simple category filter. Images must have rounded-2xl or rounded-3xl corners. Hover states should slightly scale the image and show a soft overlay with the painting title.",
+    "reviews": "Soft, welcoming carousel. Review cards should have a slightly different pastel background (e.g., surfaceAccent or secondary at very low opacity). Include quotes from happy customers.",
+    "contact": "Contact form section with a powder pink/beige container. Fields: Имя (Name), Email/Телефон (Email/Phone), Ваши пожелания (Your wishes - textarea). Primary submit button. Include direct Instagram link prominently."
+  },
+  "motion_and_interactions": {
+    "scroll": "Smooth scrolling via Lenis for a premium feel.",
+    "entrances": "Framer Motion: fade in and slide up slightly (y: 20, opacity: 0, duration: 0.8). Stagger children for lists and grids.",
+    "hover_states": "Interactive elements scale slightly (scale-105) with soft easing (ease: [0.22, 1, 0.36, 1])."
+  },
+  "assets_and_media": {
+    "icons_library": "lucide-react (strokeWidth={1.2} or {1.5} for delicate look)",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/8381961/pexels-photo-8381961.jpeg",
+        "category": "hero",
+        "description": "Artist painting in a bright studio. Use as main hero visual."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1599503613556-0f18b122d281",
+        "category": "about",
+        "description": "Woman with dark hair painting, great for 'About Me' section."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1743657166982-9e3ff272122b",
+        "category": "background",
+        "description": "Abstract pastel flowing shapes. Use as a low-opacity background texture in hero or contact sections to add warmth."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1533158388470-9a56699990c6",
+        "category": "gallery_abstract",
+        "description": "Multicolored pastel abstract painting for gallery placeholder."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1700608277944-98b04da666ba",
+        "category": "gallery_floral",
+        "description": "Pastel floral painting for gallery placeholder."
+      },
+      {
+        "url": "https://images.pexels.com/photos/10480322/pexels-photo-10480322.jpeg",
+        "category": "gallery_portrait",
+        "description": "Vibrant acrylic portrait for gallery placeholder."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1742402875208-74fff4ada83a",
+        "category": "gallery_landscape",
+        "description": "Landscape acrylic painting for gallery placeholder."
+      }
+    ]
+  },
+  "technical_rules": {
+    "testing_attributes": "All interactive and key informational elements MUST include a data-testid attribute in kebab-case (e.g., data-testid='contact-submit-button').",
+    "components": "Use custom HTML/Tailwind for layout and sections to maintain the creative pastel theme. Only use shadcn/ui for complex interactive logic if necessary (e.g., select dropdowns, modals), heavily customizing them to remove the default tech look.",
+    "file_format": "JavaScript (.jsx / .js) instead of TypeScript where applicable, per prompt constraints."
+  }
+}
