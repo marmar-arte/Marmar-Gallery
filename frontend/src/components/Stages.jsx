@@ -1,5 +1,5 @@
 import { Reveal } from "./Reveal";
-import { Globe } from "lucide-react";
+import { Globe, Clock } from "lucide-react";
 import { stages } from "../data";
 
 export const Stages = () => (
@@ -14,9 +14,15 @@ export const Stages = () => (
           Из чего складывается стоимость картины: материалы, моё время и создание
           цифрового эскиза, который я показываю вам ещё до начала работы.
         </p>
-        <div className="inline-flex items-center gap-2 mt-6 bg-white/70 border border-border rounded-full px-5 py-2.5 text-ink text-sm" data-testid="worldwide-shipping-badge">
-          <Globe size={18} strokeWidth={1.5} className="text-clay" />
-          Доставка по всему миру
+        <div className="flex flex-wrap justify-center items-center gap-3 mt-6">
+          <div className="inline-flex items-center gap-2 bg-white/70 border border-border rounded-full px-5 py-2.5 text-ink text-sm" data-testid="worldwide-shipping-badge">
+            <Globe size={18} strokeWidth={1.5} className="text-clay" />
+            Доставка по всему миру
+          </div>
+          <div className="inline-flex items-center gap-2 bg-white/70 border border-border rounded-full px-5 py-2.5 text-ink text-sm" data-testid="timeline-badge">
+            <Clock size={18} strokeWidth={1.5} className="text-clay" />
+            Изготовление 2–4 недели
+          </div>
         </div>
       </Reveal>
 
