@@ -7,9 +7,9 @@ export const About = () => (
       <Reveal className="relative order-2 lg:order-1">
         <div className="absolute -inset-3 bg-sage/30 rounded-[40px] -rotate-3" />
         <img
-          src="https://images.unsplash.com/photo-1599503613556-0f18b122d281?crop=entropy&cs=srgb&fm=jpg&q=85&w=900"
+          src="https://customer-assets.emergentagent.com/job_marmar-gallery/artifacts/wre4dgdo_IMG_0426.png"
           alt="marmar_arte"
-          className="relative w-full h-[28rem] object-cover rounded-[40px] shadow-[0_20px_60px_rgba(197,209,197,0.3)]"
+          className="relative w-full h-[28rem] object-cover object-top rounded-[40px] shadow-[0_20px_60px_rgba(197,209,197,0.3)]"
         />
       </Reveal>
 

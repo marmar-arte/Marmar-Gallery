@@ -43,21 +43,17 @@ export const categories = [
   { id: "all", label: "Все работы" },
   { id: "landscape", label: "Пейзажи" },
   { id: "mythical", label: "Мифические сюжеты" },
-  { id: "floral", label: "Цветы и натюрморты" },
   { id: "portrait", label: "Портреты" },
 ];
 
+const ASSET = "https://customer-assets.emergentagent.com/job_marmar-gallery/artifacts";
+
 export const gallery = [
-  { id: 1, cat: "landscape", title: "Цветущее поле", img: "https://images.unsplash.com/photo-1602964547811-466ac79138e8?crop=entropy&cs=srgb&fm=jpg&q=85&w=900" },
-  { id: 2, cat: "landscape", title: "Закат над озером", img: "https://images.unsplash.com/photo-1751194109279-6a8a8bb25e7f?crop=entropy&cs=srgb&fm=jpg&q=85&w=900" },
-  { id: 3, cat: "landscape", title: "Тихая река", img: "https://images.unsplash.com/photo-1697829713122-e47ecf517aa7?crop=entropy&cs=srgb&fm=jpg&q=85&w=900" },
-  { id: 4, cat: "mythical", title: "Душа весны", img: "https://images.unsplash.com/photo-1598495494482-172d89ff078c?crop=entropy&cs=srgb&fm=jpg&q=85&w=900" },
-  { id: 5, cat: "mythical", title: "Хранительница", img: "https://images.pexels.com/photos/38116270/pexels-photo-38116270.jpeg?auto=compress&cs=tinysrgb&w=900" },
-  { id: 6, cat: "floral", title: "Букет в вазе", img: "https://images.unsplash.com/photo-1700212965142-f5069c18ca0a?crop=entropy&cs=srgb&fm=jpg&q=85&w=900" },
-  { id: 7, cat: "floral", title: "Полевые цветы", img: "https://images.unsplash.com/photo-1700212964071-7cd2c1ec96dd?crop=entropy&cs=srgb&fm=jpg&q=85&w=900" },
-  { id: 8, cat: "floral", title: "Натюрморт с пионами", img: "https://images.unsplash.com/photo-1748285279142-75e4d7a99234?crop=entropy&cs=srgb&fm=jpg&q=85&w=900" },
-  { id: 9, cat: "portrait", title: "Тёплый взгляд", img: "https://images.pexels.com/photos/10480322/pexels-photo-10480322.jpeg?auto=compress&cs=tinysrgb&w=900" },
-  { id: 10, cat: "landscape", title: "Красные скалы", img: "https://images.unsplash.com/photo-1774969724772-b8537fafcf6e?crop=entropy&cs=srgb&fm=jpg&q=85&w=900" },
+  { id: 1, cat: "landscape", title: "Сад у моря", img: `${ASSET}/r8fyrmi5_IMG_2963.jpeg` },
+  { id: 2, cat: "landscape", title: "Зима во дворе", img: `${ASSET}/rdvsakmq_IMG_0954.jpeg` },
+  { id: 3, cat: "mythical", title: "Мавка", img: `${ASSET}/0d9sceoi_IMG_0943.jpeg` },
+  { id: 4, cat: "mythical", title: "Тайна старого города", img: `${ASSET}/n8zm4v5j_IMG_0931.jpeg` },
+  { id: 5, cat: "portrait", title: "Девичник на Бродвее", img: `${ASSET}/wre4dgdo_IMG_0426.png` },
 ];
 
 export const reviews = [
