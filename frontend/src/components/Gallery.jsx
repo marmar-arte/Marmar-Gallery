@@ -48,7 +48,12 @@ export const Gallery = () => {
                 className="group relative mb-5 break-inside-avoid overflow-hidden rounded-[28px] shadow-[0_10px_30px_rgba(212,163,150,0.12)]"
                 data-testid={`gallery-item-${g.id}`}
               >
-                <img src={g.img} alt={g.title} className="w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src={g.img} alt={g.title} className={`w-full object-cover transition-transform duration-700 ${g.crop ? "origin-top-left scale-[1.08] group-hover:scale-[1.13]" : "group-hover:scale-105"}`} />
+                {g.series && (
+                  <span data-testid={`series-badge-${g.id}`} className="absolute top-4 left-4 bg-white/85 backdrop-blur-sm text-ink text-xs rounded-full px-3 py-1 shadow-sm">
+                    Серия
+                  </span>
+                )}
                 <div className="absolute inset-0 bg-gradient-to-t from-ink/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-6">
                   <p className="font-heading text-2xl text-white">{g.title}</p>
                 </div>

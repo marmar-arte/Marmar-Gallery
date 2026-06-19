@@ -58,8 +58,8 @@ export const Hero = () => {
         >
           <div className="absolute inset-4 bg-blush rounded-[40px] rotate-3" />
           <img
-            src="https://customer-assets.emergentagent.com/job_marmar-gallery/artifacts/0d9sceoi_IMG_0943.jpeg"
-            alt="Художница marmar_arte со своей картиной «Мавка»"
+            src="https://customer-assets.emergentagent.com/job_marmar-gallery/artifacts/wre4dgdo_IMG_0426.png"
+            alt="Картина «Sex and the big city» — marmar_arte"
             className="relative w-full h-[30rem] object-cover object-top rounded-[40px] shadow-[0_20px_60px_rgba(212,163,150,0.25)]"
           />
           <div className="absolute -bottom-5 -left-5 bg-white rounded-3xl px-6 py-4 shadow-lg">

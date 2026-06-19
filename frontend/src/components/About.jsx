@@ -3,17 +3,8 @@ import { Heart, Palette, Sparkles } from "lucide-react";
 
 export const About = () => (
   <section id="about" className="py-24 lg:py-32">
-    <div className="max-w-6xl mx-auto px-6 lg:px-12 grid lg:grid-cols-2 gap-14 items-center">
-      <Reveal className="relative order-2 lg:order-1">
-        <div className="absolute -inset-3 bg-sage/30 rounded-[40px] -rotate-3" />
-        <img
-          src="https://customer-assets.emergentagent.com/job_marmar-gallery/artifacts/wre4dgdo_IMG_0426.png"
-          alt="marmar_arte"
-          className="relative w-full h-[28rem] object-cover object-top rounded-[40px] shadow-[0_20px_60px_rgba(197,209,197,0.3)]"
-        />
-      </Reveal>
-
-      <Reveal delay={0.1} className="order-1 lg:order-2">
+    <div className="max-w-3xl mx-auto px-6 lg:px-12 text-center">
+      <Reveal delay={0.1}>
         <span className="font-accent text-clay text-3xl">кто я</span>
         <h2 className="font-heading text-4xl lg:text-5xl font-light text-ink mt-2">
           Привет! Я — Мария,<br />художница marmar_arte
@@ -29,7 +20,7 @@ export const About = () => (
           радовать вас каждый день.
         </p>
 
-        <div className="grid grid-cols-3 gap-4 mt-9">
+        <div className="grid grid-cols-3 gap-4 mt-9 max-w-xl mx-auto">
           {[
             { icon: Palette, t: "Акрил на холсте" },
             { icon: Sparkles, t: "Эскиз заранее" },

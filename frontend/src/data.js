@@ -50,16 +50,16 @@ const ASSET = "https://customer-assets.emergentagent.com/job_marmar-gallery/arti
 
 export const gallery = [
   { id: 1, cat: "portrait", title: "Sex and the big city", img: `${ASSET}/wre4dgdo_IMG_0426.png` },
-  { id: 2, cat: "mythical", title: "Darkness", img: `${ASSET}/n8zm4v5j_IMG_0931.jpeg` },
-  { id: 3, cat: "mythical", title: "Rituals", img: `${ASSET}/0d9sceoi_IMG_0943.jpeg` },
-  { id: 4, cat: "landscape", title: "Souls of the panel blocks", img: `${ASSET}/rdvsakmq_IMG_0954.jpeg` },
-  { id: 5, cat: "landscape", title: "Gardens of Eden", img: `${ASSET}/jle2qhrx_IMG_3135.jpeg` },
+  { id: 2, cat: "mythical", title: "Darkness", series: true, img: `${ASSET}/n8zm4v5j_IMG_0931.jpeg` },
+  { id: 3, cat: "mythical", title: "Rituals", series: true, img: `${ASSET}/0d9sceoi_IMG_0943.jpeg` },
+  { id: 4, cat: "landscape", title: "Souls of the panel blocks", series: true, crop: true, img: `${ASSET}/rdvsakmq_IMG_0954.jpeg` },
+  { id: 5, cat: "landscape", title: "Gardens of Eden", crop: true, img: `${ASSET}/jle2qhrx_IMG_3135.jpeg` },
   { id: 6, cat: "mythical", title: "Angel or Evil", img: `${ASSET}/n99ot1pj_Untitled72_20260412145833.jpeg` },
   { id: 7, cat: "portrait", title: "Love", img: `${ASSET}/sjvxpi20_IMG_0959.jpeg` },
   { id: 8, cat: "portrait", title: "Feelings", img: `${ASSET}/tuivfrsc_Untitled74_20260412124446.jpeg` },
   { id: 9, cat: "mythical", title: "Cosmos of subconscious", img: `${ASSET}/1fyhkkqb_Untitled73_20260412124425.jpeg` },
-  { id: 10, cat: "landscape", title: "Light house", img: `${ASSET}/3hp14brn_IMG_0957.jpeg` },
-  { id: 11, cat: "mythical", title: "Rituals of the sun", img: `${ASSET}/jvqm7l1s_IMG_0414.jpeg` },
+  { id: 10, cat: "landscape", title: "Light house", crop: true, img: `${ASSET}/3hp14brn_IMG_0957.jpeg` },
+  { id: 11, cat: "mythical", title: "Relax", crop: true, img: `${ASSET}/jvqm7l1s_IMG_0414.jpeg` },
 ];
 
 export const reviews = [
