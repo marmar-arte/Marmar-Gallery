@@ -58,6 +58,8 @@ export const gallery = [
   { id: 7, cat: "portrait", title: "Love", img: `${ASSET}/sjvxpi20_IMG_0959.jpeg` },
   { id: 8, cat: "portrait", title: "Feelings", img: `${ASSET}/tuivfrsc_Untitled74_20260412124446.jpeg` },
   { id: 9, cat: "mythical", title: "Cosmos of subconscious", img: `${ASSET}/1fyhkkqb_Untitled73_20260412124425.jpeg` },
+  { id: 10, cat: "landscape", title: "Light house", img: `${ASSET}/3hp14brn_IMG_0957.jpeg` },
+  { id: 11, cat: "mythical", title: "Rituals of the sun", img: `${ASSET}/jvqm7l1s_IMG_0414.jpeg` },
 ];
 
 export const reviews = [
