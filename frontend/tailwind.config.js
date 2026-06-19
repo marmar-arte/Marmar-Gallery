@@ -12,7 +12,19 @@ module.exports = {
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)'
       },
+      fontFamily: {
+        heading: ['Cormorant Garamond', 'serif'],
+        body: ['Nunito', 'sans-serif'],
+        accent: ['Caveat', 'cursive'],
+      },
       colors: {
+        cream: '#FDFBF7',
+        surface: '#F6F0EA',
+        blush: '#F1E6E4',
+        clay: '#D4A396',
+        sage: '#C5D1C5',
+        ink: '#2C2A29',
+        stone: '#7A736E',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {
